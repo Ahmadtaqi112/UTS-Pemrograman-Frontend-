@@ -1,0 +1,32 @@
+.container {
+    padding: 0 2 rem;
+    color: #000000;
+  }
+  
+  .indo {
+    max-width: 1500px;
+    margin: 9px;
+    
+  }
+  
+  .indo__title {
+    text-align: center;
+  
+  }
+  
+  .indo__update {
+    text-align: right;
+    
+  }
+  
+  @media screen and (min-width: 768px) {
+    .indo__body {
+      display: flex;
+      justify-content: space-between;
+      gap: 2rem;
+      padding: 10px;
+     background-color: transparent;
+    }
+    
+  }
+  
